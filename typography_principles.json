@@ -1,0 +1,73 @@
+{
+  "source": "The Elements of Typographic Style by Robert Bringhurst",
+  "principles": {
+    "rhythm_and_proportion": {
+      "description": "Typography must honor the reader's intelligence and attention",
+      "rules": [
+        "Choose a basic leading that suits the typeface, text and measure",
+        "Add and delete vertical space in measured intervals",
+        "Don't stretch or compress letterforms",
+        "Choose a measure that comfortably fits the text"
+      ]
+    },
+    "harmony_and_counterpoint": {
+      "description": "Typographic elements should work together harmoniously",
+      "rules": [
+        "Don't use too many type families in a single document",
+        "Balance type sizes, weights, and styles",
+        "Create clear hierarchical relationships",
+        "Maintain consistent spacing throughout"
+      ]
+    },
+    "structural_forms_and_devices": {
+      "description": "Use consistent structural elements",
+      "rules": [
+        "Use em and en dashes correctly",
+        "Hang punctuation where appropriate",
+        "Use true italics, not slanted roman",
+        "Choose appropriate quotation marks and apostrophes"
+      ]
+    },
+    "analphabetic_symbols": {
+      "description": "Handle numbers, punctuation, and symbols properly",
+      "rules": [
+        "Use proportional oldstyle figures in text",
+        "Use tabular figures in tables",
+        "Set mathematical copy correctly",
+        "Use proper fractions and superscripts"
+      ]
+    },
+    "page_architecture": {
+      "description": "Design pages with clear structure and hierarchy",
+      "rules": [
+        "Create active white space",
+        "Use consistent margins and gutters",
+        "Align text elements to a baseline grid",
+        "Balance text and white space"
+      ]
+    }
+  },
+  "measurements": {
+    "line_length": {
+      "optimal_range": "45-75 characters per line",
+      "ideal": "65-66 characters per line",
+      "formula": "2.5 alphabets (a-z repeated 2.5 times)"
+    },
+    "line_height": {
+      "body_text": "1.2-1.5 times the font size",
+      "headings": "1.0-1.2 times the font size",
+      "tight_leading": "Use sparingly for short lines"
+    },
+    "font_sizes": {
+      "body_text": "14-16px for screen, 10-12pt for print",
+      "headings": "Use mathematical scales (1.2, 1.414, 1.618 ratios)",
+      "captions": "1-2 sizes smaller than body text"
+    },
+    "spacing": {
+      "letter_spacing": "Negative for large headings, positive for small caps",
+      "word_spacing": "Optimize for even color and texture",
+      "paragraph_spacing": "0.5-1.0 times the line height"
+    }
+  },
+  "analysis_date": "2025-06-13"
+}
