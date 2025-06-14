@@ -1,0 +1,19 @@
+[project]
+name = "accessibility-mcp-server"
+version = "0.1.0"
+description = "MCP server for UI accessibility rules and best practices"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "beautifulsoup4>=4.12.0",
+    "lxml>=5.0.0",
+    "cssselect>=1.2.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["."]
